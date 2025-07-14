@@ -7,8 +7,6 @@
 
 Sistema web simples e funcional para controle de produtos e categorias, desenvolvido em PHP puro e Bootstrap como projeto acadêmico.
 
-![Screenshot da Tela de Listagem](https://i.imgur.com/5AIP1zK.png)
-
 ## 📖 Sobre o Projeto
 
 O StoQ é uma aplicação web criada para automatizar o controle de inventário de pequenas empresas, substituindo processos manuais suscetíveis a erros. O sistema permite o gerenciamento completo (CRUD) de produtos e suas respectivas categorias, com uma interface limpa, intuitiva e responsiva.
