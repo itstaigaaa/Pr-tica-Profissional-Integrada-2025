@@ -59,6 +59,6 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 ## ✍️ Autor
 
--   **Luigi Espindola Gonzalez** - [Seu-LinkedIn](https://www.linkedin.com/) | [Seu-GitHub](https://github.com/seu-usuario)
+-   **Luigi Espindola Gonzalez** - [Seu-LinkedIn]((https://www.linkedin.com/in/luigi-espindola-gonzalez-479117211/))
 
 *(Não se esqueça de atualizar os links do seu LinkedIn e GitHub acima!)*
