@@ -1,30 +1,64 @@
-# Projeto StoQ - Sistema de Gestão de Estoque
+# StoQ - Sistema de Gestão de Estoque
 
-> [cite_start]Sistema web simples e funcional para controle de produtos e categorias, desenvolvido em PHP e Bootstrap como projeto acadêmico. [cite: 128]
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap)
+![MariaDB](https://img.shields.io/badge/MariaDB-10.4-003545?style=for-the-badge&logo=mariadb)
 
-##  sobre o projeto
+Sistema web simples e funcional para controle de produtos e categorias, desenvolvido em PHP puro e Bootstrap como projeto acadêmico.
 
-[cite_start]O StoQ é uma aplicação web criada para automatizar o controle de inventário, substituindo processos manuais suscetíveis a erros. [cite: 18] O sistema permite o gerenciamento completo (CRUD) de produtos e categorias, com uma interface limpa, intuitiva e responsiva.
+![Screenshot da Tela de Listagem](https://i.imgur.com/5AIP1zK.png)
 
-[cite_start]Este projeto foi desenvolvido como parte da avaliação da Prática Profissional Integrada (PPI) do 3º Semestre do Curso Superior de Tecnologia em Sistemas para Internet do Instituto Federal Farroupilha - Campus Santo Ângelo. [cite: 1, 126] [cite_start]Ele integra de forma prática os conhecimentos das disciplinas de **Banco de Dados II**, **Engenharia de Software II** e **Programação Web I**. [cite: 468]
+## 📖 Sobre o Projeto
 
-## Principais Funcionalidades
+O StoQ é uma aplicação web criada para automatizar o controle de inventário de pequenas empresas, substituindo processos manuais suscetíveis a erros. O sistema permite o gerenciamento completo (CRUD) de produtos e suas respectivas categorias, com uma interface limpa, intuitiva e responsiva.
 
-* ✅ CRUD completo para Produtos e Categorias.
-* [cite_start]✅ Tabela com ordenação dinâmica por múltiplas colunas. [cite: 102]
-* [cite_start]✅ Controle de integridade referencial, impedindo a exclusão de categorias que possuem produtos associados. [cite: 104]
-* [cite_start]✅ Interface responsiva construída com Bootstrap 5 para fácil utilização em diferentes dispositivos. [cite: 41, 43]
-* ✅ Validação de dados e tratamento de erros para uma melhor experiência do usuário.
-* [cite_start]✅ Segurança nos formulários com o uso do método `POST`. [cite: 106]
+Este projeto foi desenvolvido como parte da avaliação da **Prática Profissional Integrada (PPI)** do Curso Superior de Tecnologia em Sistemas para Internet, integrando de forma prática os conhecimentos das disciplinas de:
+* Banco de Dados II
+* Engenharia de Software II
+* Programação Web I
 
-## Tecnologias Utilizadas
+## ✨ Funcionalidades
 
-* [cite_start]**Back-end:** PHP 8.2 (com PDO para acesso ao banco de dados) [cite: 37, 39]
-* [cite_start]**Front-end:** HTML5, CSS3, Bootstrap 5 [cite: 41]
-* [cite_start]**Banco de Dados:** MariaDB (gerenciado via XAMPP) [cite: 35]
-* [cite_start]**Servidor Local:** Apache (via XAMPP) [cite: 35]
-* [cite_start]**IDE:** Visual Studio Code [cite: 45]
+-   **Gerenciamento de Produtos:** Cadastro, edição, listagem e exclusão de produtos.
+-   **Gerenciamento de Categorias:** Cadastro, edição, listagem e exclusão de categorias.
+-   **Ordenação Dinâmica:** Controles interativos na interface para ordenar os dados por diferentes colunas (ID, Descrição, etc.).
+-   **Integridade de Dados:** O sistema impede a exclusão de categorias que possuem produtos associados, garantindo a consistência do banco de dados.
+-   **Design Responsivo:** Interface construída com Bootstrap 5, adaptável a desktops e dispositivos móveis.
 
-## Contexto Acadêmico
+## 🛠️ Tecnologias Utilizadas
 
-[cite_start]Este projeto foi desenvolvido para a loja e assistência técnica "Eletrônica Ribas", como estudo de caso, para atender à sua necessidade de um sistema de controle de estoque. [cite: 143]
+| Tecnologia | Versão | Propósito |
+| :--- | :--- | :--- |
+| **PHP** | 8.2 | Lógica de back-end e comunicação com o banco de dados (via PDO). |
+| **MariaDB**| 10.4 | Armazenamento e gerenciamento dos dados relacionais. |
+| **Bootstrap**| 5.3 | Framework CSS para a construção da interface do usuário. |
+| **XAMPP** | | Ambiente de servidor local (Apache + MariaDB). |
+
+## 🚀 Instalação e Execução
+
+Para rodar este projeto localmente, siga os passos abaixo:
+
+**Pré-requisitos:**
+* Ter o [XAMPP](https://www.apachefriends.org/pt_br/index.html) instalado.
+
+**Passos:**
+1.  Clone este repositório para a sua máquina.
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    ```
+2.  Mova a pasta do projeto clonada para o diretório `htdocs` da sua instalação do XAMPP.
+3.  Inicie os módulos **Apache** e **MySQL** no painel de controle do XAMPP.
+4.  Abra o **phpMyAdmin** (`http://localhost/phpmyadmin`) e crie um novo banco de dados chamado `test`.
+5.  Selecione o banco `test` e vá para a aba "SQL". Copie o conteúdo do arquivo `database.sql` (que está neste repositório) e execute-o para criar as tabelas e inserir os dados de exemplo.
+6.  Acesse o sistema pelo navegador no seguinte endereço:
+    ```
+    http://localhost/nome-da-pasta-do-projeto/
+    ```
+    *(Substitua `nome-da-pasta-do-projeto` pelo nome da pasta que você moveu para o `htdocs`)*.
+
+## ✍️ Autor
+
+-   **Luigi Espindola Gonzalez** - [Seu-LinkedIn](https://www.linkedin.com/) | [Seu-GitHub](https://github.com/seu-usuario)
+
+*(Não se esqueça de atualizar os links do seu LinkedIn e GitHub acima!)*
