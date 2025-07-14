@@ -57,4 +57,4 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 ## ✍️ Autor
 
--   **Luigi Espindola Gonzalez** - [LinkedIn](https://www.linkedin.com/in/luigi-espindola-gonzalez-479117211/)
+-   **Luigi Espindola Gonzalez** - [LinkedIn](https://www.linkedin.com/in/luigiespgonzalez/)
