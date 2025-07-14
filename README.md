@@ -43,7 +43,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 **Passos:**
 1.  Clone este repositório para a sua máquina.
     ```bash
-    git clone [https://github.com/itstaigaaa/Pr-tica-Profissional-Integrada-2025.git](https://github.com/itstaigaaa/Pr-tica-Profissional-Integrada-2025.git)
+    git clone https://github.com/itstaigaaa/Pr-tica-Profissional-Integrada-2025.git
     ```
 2.  Mova a pasta do projeto clonada para o diretório `htdocs` da sua instalação do XAMPP.
 3.  Inicie os módulos **Apache** e **MySQL** no painel de controle do XAMPP.
@@ -58,5 +58,3 @@ Para rodar este projeto localmente, siga os passos abaixo:
 ## ✍️ Autor
 
 -   **Luigi Espindola Gonzalez** - [LinkedIn](https://www.linkedin.com/in/luigi-espindola-gonzalez-479117211/)
-
-*(Não se esqueça de atualizar os links do seu LinkedIn e GitHub acima!)*
